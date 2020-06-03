@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.author             = { "BhandarA" => "ankit.bhandari@unisys.com" }
     spec.platform     = :ios
     spec.platform     = :ios, "13.0"
-    spec.source       = { :git => "https://github.com/ankitbhandari27/CompiledFramwork.git", :tag => "0.1.0" }
+    spec.source       = { :git => "https://github.com/ankitbhandari27/Configuration.git", :tag => "0.1.0" }
     spec.public_header_files = "SIConfigurationSDK/SIConfigurationSDK.framework/Headers/*.h"
     spec.source_files = "SIConfigurationSDK/SIConfigurationSDK.framework/Headers/*.h"
     spec.ios.vendored_frameworks = "SIConfigurationSDK/SIConfigurationSDK.framework"
