@@ -1,0 +1,11 @@
+framework module SIConfigurationSDK {
+  umbrella header "SIConfigurationSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SIConfigurationSDK.Swift {
+    header "SIConfigurationSDK-Swift.h"
+    requires objc
+}

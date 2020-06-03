@@ -1,0 +1,99 @@
+
+{
+  "app": {
+      "authEndpoint": "enrollmentEndpoint",
+      "authContextUrl":"url",
+      "authPort":8000,
+      "authProtocol":"https",
+      "boEndpoint": "enrollmentEndpoint",
+      "boContextUrl":"inblr-uvm-2732.eu.uis.unisys.com",
+      "boPort":8443,
+      "boProtocol":"https",
+      "configServer":"url",
+      "configServerPort":8002,
+      "configServerProtocol":"https",
+      "version":"1.0",
+      "authentication": {
+          "scheme":"OIDC-OAUTH",
+          "clientId":"clientId",
+          "scopes":"scopes",
+          "issuer":"issuer",
+          "redirect_uri":"redirect_uri",
+          "idealTime" : 300,
+          "extentionTime" : 20,
+          "retryCount" : 3
+      },
+      "storage": {
+          "maxStorageLimit":100,
+          "isLocalStorageEnabled": true
+      },
+      "transformation":{
+          "format":"STEALTH"
+      },
+      "logger":{
+          "enableFileLogging" : true,
+          "enableConsoleLogging" : true,
+          "dateBefore" : "21-05-2020",
+          "fileExtention" : ".log",
+          "logLevel" : "debug",
+          "prefix" : "LOG"
+      }
+    },
+  "modality": {
+      "licenseKeyforAll": "ObtainedKeyfromAccountsTeam",
+      "facial": {
+          "licenseKeyforFacial": "ObtainedKeyfromAccountsTeam",
+          "captureType": "operator",
+          "isAutoCapture": true,
+          "resolution": "800×600",
+          "numberofCapture":3,
+          "liveliness":  ["smile","eyeBlink"],
+          "quality": {
+              "iosNative": {
+                  "enable": true
+              },
+              "aware": {
+                  "enable": false,
+                  "profileType": [
+                      "ICAO",
+                      "ISO",
+                      "Custom"
+                  ],
+                  "profileRequestType": "preconfigured/appconfigured",
+                  "profileXml": "ProfileXmlAsEncodedString"
+              }
+          }
+      },
+      "document": {
+          "licenseKeyforDocument": "ObtainedKeyfromAccountsTeam",
+          "resolution": "800×600",
+          "isOcrPickerEnabled":false,
+          "authenticateDocument": {
+              "passport": {
+                  "enable": true,
+                  "captureType": "MRZ",
+                  "isAutoCapture": true
+              },
+              "dl": {
+                  "enable": true,
+                  "captureType": "OCR",
+                  "isAutoCapture": true,
+                  "isTemplatingEnabled":false
+              }
+          },
+          "supportingDocument": {
+              "enable": true,
+              "captureType": "IMG",
+              "isAutoCapture": true
+          }
+      },
+      "fingerprint": {
+          "enable":true,
+          "licenseKeyforFingerprint": "ObtainedKeyfromAccountsTeam",
+          "dpi": "500",
+          "imageFormat":"wsq",
+          "captuerMode":"10F"
+      }
+    }
+ 
+}
