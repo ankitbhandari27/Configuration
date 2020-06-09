@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SIConfigurationSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pW0lBKD1arycJIdHrWmfdGmNCUI=
+		qNj4aA2QWAV+5hITY2WYkiBC+AE=
 		</data>
 		<key>Modules/SIConfigurationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/SIConfigurationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		pW0lBKD1arycJIdHrWmfdGmNCUI=
+		qNj4aA2QWAV+5hITY2WYkiBC+AE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>config.json</key>
 		<data>
-		yW6dL6TAM5tzdZ6G4xDEK8CJT3k=
+		raIDp02HLg0gdVgv5BcuBwc/2UQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gp9Dlw/jXM+spveOEISG7qPpZMP4wvuNjFivG35uAlo=
+			37wY3QP/6Pwk9g3VmgW3IbUYO1Uip94Z9bTOq6ByuLY=
 			</data>
 		</dict>
 		<key>Modules/SIConfigurationSDK.swiftmodule/arm64.swiftdoc</key>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gp9Dlw/jXM+spveOEISG7qPpZMP4wvuNjFivG35uAlo=
+			37wY3QP/6Pwk9g3VmgW3IbUYO1Uip94Z9bTOq6ByuLY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jR8lSSZ4L6liSfS/Hg9EskQFq7w6yYTTsGoYEKqVUzs=
+			sezQqFy1WD6sRi+neN/NAGJoRlhGsMNDEfyXG7mmI3s=
 			</data>
 		</dict>
 	</dict>

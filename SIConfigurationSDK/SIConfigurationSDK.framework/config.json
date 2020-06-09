@@ -33,7 +33,7 @@
       "logger":{
           "enableFileLogging" : true,
           "enableConsoleLogging" : true,
-          "dateBefore" : "21-05-2020",
+          "daysBefore" : 2,
           "fileExtention" : ".log",
           "logLevel" : "debug",
           "prefix" : "LOG"
@@ -68,6 +68,7 @@
           "licenseKeyforDocument": "ObtainedKeyfromAccountsTeam",
           "resolution": "800×600",
           "isOcrPickerEnabled":false,
+          "timeout":60,
           "authenticateDocument": {
               "passport": {
                   "enable": true,
